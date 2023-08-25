@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 03</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.min.css">
+</head>
+<body>
+    <main id="app" class="container">
+        <section class="d-flex justify-content-center flex-column">
+            <h1 class="text-success text-center mt-4">Mi redes sociales <span id="cantidad" class="badge bg-secondary">1</span></h1>
+            
+            <button id="btn-ver" class="btn btn-info" type="button">Ver redes</button>
+        </section>
+
+        <section>
+            <div id="redes-list" class="row mt-4">
+                <div class="card col-lg-2 col-md-3 col-sm-4 m-3 p-2">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Facebook</h4>
+                        <img src="images/facebook.png" alt="Facebook" class="img-fluid">
+                        <a href="https://es-la.facebook.com/" class="btn btn-success col-md-12 mt-3" target="_blank">Ir a</a>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+
+    </main>    
+    <script src="datos.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
